@@ -4,7 +4,7 @@ This is the official repository of the fifth assignment of the *'Contemporary Ar
 
 
 
-### Repository structure
+## Repository structure
 
 ```python
 │  dataset.py		# dataset
@@ -34,7 +34,7 @@ This is the official repository of the fifth assignment of the *'Contemporary Ar
 
 
 
-### Installation
+## Installation
 
 environment: linux(Ubuntu20.04) + CUDA 11.7 / Windows10 + CUDA 11.7
 
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 
 
-### Testing
+## Testing
 
 1.put best model weights in `checkpoints`
 
@@ -79,7 +79,7 @@ sh test.sh
 
 
 
-### Training
+## Training
 
 1.put pretrained models in  `pretrained` 
 
@@ -105,19 +105,19 @@ sh train.sh
 
 
 
-**Other image models**
+#### Other image models
 
 change `pretrained_image` args in `train.py` or `train.sh` to `pretrained/resnet/resnet18.pth` or `pretrained/resnet/resnet50.pth` 
 
 
 
-**Other fusion methods**
+#### Other fusion methods
 
 change `fusion_methods` args in `train.py` or `train.sh` to `add` or `attention`
 
 
 
-### Attribution
+## Attribution
 
 Parts of this code referenced the following repositories:
 
